@@ -1,174 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sukhpreet Sandhu Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-      </head>
-      
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sukhpreet Kaur Sandhu | Data Analyst Portfolio</title>
+  <meta name="description" content="Portfolio of Sukhpreet Kaur Sandhu, a Computer Science graduate and Junior Data Analyst focused on SQL, Power BI, Python, business intelligence, and dashboard development." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
 <body>
-  <button id="theme-toggle">Toggle Theme</button>
-  <header data-aos="fade-down">
-    <div class="container">
-      <img src="images/sukhpreet.jpg" alt="Sukhpreet Photo" class="profile-pic">
-      <h1>Sukhpreet Kaur Sandhu</h1>
-      <p class="tagline">Code. Analyze. Empower.</p>
-      <a href="resume/Sukhpreet_Kaur_Sandhu_Resume.pdf" download class="resume-button">Download Resume</a>
-    </div>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="brand" href="#home">Sukhpreet<span>.</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
   </header>
 
-  <section id="about" data-aos="fade-up">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>I am a Computer Science student at the University of Calgary with a strong interest in software development, user-centered design, and data analysis. I enjoy building intuitive applications, analyzing complex datasets, and working on interdisciplinary projects that combine technology with creativity. My goal is to create tools and systems that make a positive impact and solve meaningful problems.</p>
-    </div>
-  </section>
+  <main>
+    <section id="home" class="hero section-padding">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Junior Data Analyst • Computer Science Graduate</p>
+          <h1>Sukhpreet Kaur Sandhu</h1>
+          <p class="hero-subtitle">
+            I build clear, business-focused dashboards and analytics solutions using SQL, Power BI, Excel, and Python.
+          </p>
+          <p class="hero-copy">
+            My work connects technical analysis with practical decision-making: cleaning data, defining KPIs, building reports, and turning messy business questions into useful insights.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="resume/Sukhpreet_Kaur_Sandhu_Resume.pdf" target="_blank" rel="noopener">
+              <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+            </a>
+            <a class="btn btn-secondary" href="#projects">
+              <i class="fa-solid fa-chart-line"></i> View Projects
+            </a>
+          </div>
+          <div class="social-row">
+            <a href="mailto:sukhpreet.sandhu2@ucalgary.ca" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://github.com/sandhu-sukhpreet" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/in/sukhpreet-sandhu" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
 
-  <section id="education" data-aos="fade-right">
-    <div class="container">
-      <h2>Education</h2>
-      <p><strong>University of Calgary</strong> – BSc in Computer Science (2022–2026)<br>GPA: 3.8 | Dean’s Honour List (x3)</p>
-      <p><strong>Langara College</strong> – Diploma in Computer Science (2018–2019)<br>GPA: 4.0 | Dean’s Honour List (x4)</p>
-    </div>
-  </section>
-
-  
-  <section id="skills" data-aos="zoom-in-up">
-    <div class="container">
-      <h2>Skills</h2>
-      <h3>Languages</h3>
-      <ul class="skills-list">
-        <li>Python</li><li>Java</li><li>JavaScript</li><li>SQL</li><li>C++</li><li>HTML/CSS</li><li>Haskell</li><li>Prolog</li><li>Assembly</li>
-      </ul>
-      <h3>Frameworks & Libraries</h3>
-      <ul class="skills-list">
-        <li>React Native</li><li>Node.js</li><li>Flask</li><li>JUnit</li><li>Bootstrap</li><li>PHP</li><li>Mongoose (MongoDB)</li>
-      </ul>
-      <h3>Developer Tools</h3>
-      <ul class="skills-list">
-        <li>VS Code</li><li>Android Studio</li><li>Eclipse</li><li>IntelliJ</li><li>PyCharm</li><li>MySQL Workbench</li><li>Jupyter Notebook</li>
-      </ul>
-      <h3>Data & Visualization</h3>
-      <ul class="skills-list">
-        <li>NetworkX</li><li>Gephi</li><li>Power BI</li><li>Pandas</li>
-      </ul>
-      <h3>Platforms & Systems</h3>
-      <ul class="skills-list">
-        <li>Linux</li><li>Windows</li><li>Git & GitHub</li>
-      </ul>
-      <h3>Soft Skills</h3>
-      <ul class="skills-list">
-        <li>Leadership</li><li>Effective Communication</li><li>Problem Solving</li><li>Time Management</li>
-        <li>Teamwork</li><li>Critical Thinking</li><li>Customer Focus</li><li>Attention to Detail</li><li>Initiative</li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="experience" data-aos="fade-left">
-    <div class="container">
-      <h2>Work Experience</h2>
-      <p><strong>Pre-Board Screening Officer</strong> – Calgary International Airport<br>Jan 2022 – Present</p>
-      <ul>
-        <li>Conducted thorough security screenings for 500+ individuals daily using advanced technologies.</li>
-        <li>Provided clear guidance to 3,000+ passengers daily, achieving 98% customer satisfaction.</li>
-        <li>Improved operational efficiency, reducing wait times by 20% during peak hours.</li>
-      </ul>
-      <p><strong>Shift Supervisor</strong> – Subway, Calgary<br>Feb 2020 – Jan 2022</p>
-      <ul>
-        <li>Trained new hires, resulting in 20% improved efficiency and fewer complaints.</li>
-        <li>Optimized staff scheduling and reduced overtime costs by 10%.</li>
-        <li>Managed inventory to reduce waste and save $10,000 annually.</li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="projects" data-aos="fade-right">
-
-    <div class="container">
-
-        <h2>Projects</h2>
-
-      <div class="project">
-        <h3>Cat Adoption Web App</h3>
-        <p><strong>Tools:</strong> React, JavaScript, Node.js, MongoDB</p>
-        <p>Developed a full-stack web application using JavaScript and Node.js with RESTful APIs for backend communication. Integrated database functionality and optimized performance using Webpack for efficient resource management. Designed responsive, user-friendly interfaces with a focus on modern UI/UX principles.</p>
+        <div class="hero-card reveal">
+          <img src="images/sukhpreet.jpg" alt="Sukhpreet Kaur Sandhu" class="profile-img" />
+          <div class="hero-card-text">
+            <h2>Data Analytics Portfolio</h2>
+            <p>SQL • Power BI • Python • Excel • Business Intelligence</p>
+          </div>
+        </div>
       </div>
-      <div class="project">
-        <h3>Interactive Game Development</h3>
-        <p><strong>Tools:</strong> JavaScript, HTML5, Canvas API</p>
-        <p>Implemented an interactive web-based game using JavaScript, enhancing user engagement through dynamic gameplay. Established core game functionality, character control, and level difficulty variance for enhanced player experience. Crafted a flexible user interface for consistent gameplay across various devices.</p>
-      </div>
-      <div class="project">
-        <h3>Calgary Transit Network Analysis</h3>
-        <p><strong>Tools:</strong> Python, NetworkX, Gephi, Power BI, Pandas</p>
-        <p>Modeled Calgary’s public transit using GTFS data and applied centrality/community detection algorithms to optimize route planning. Visualized networks to identify bottlenecks and improve accessibility.</p>
-      </div>
-      <div class="project">
-        <h3>Roamio – Travel App</h3>
-        <p><strong>Tools:</strong> React Native, Android Studio, Node.js, UX Design</p>
-        <p>Designed a mobile app for solo and group trip planning. Integrated shared itinerary features with a user-centered design tested on Android Studio.</p>
-      </div>
-      <div class="project">
-        <h3>Self-Checkout System – TheLocalMarketplace</h3>
-        <p><strong>Tools:</strong> Java, JUnit, Java Swing</p>
-        <p>Built a retail-grade self-checkout system with GUI, object-oriented design, and unit testing. Included UML modeling and behavior simulation.</p>
-      </div>
-      <div class="project">
-        <h3>Online Grocery Shopping Web App</h3>
-        <p><strong>Tools:</strong> Flask, SQL, JavaScript, HTML/CSS</p>
-        <p>Created a dynamic web app for online groceries with user login, cart management, and schema-driven backend. Ensured data integrity through query optimization and testing.</p>
-      </div>
-      <div class="project">
-        <h3>Cat Adoption Web App</h3>
-        <p><strong>Tools:</strong> React, Node.js, MongoDB</p>
-        <p>Full-stack app for browsing/adopting cats with responsive UI and RESTful backend. Employed Webpack for efficient build and performance tuning.</p>
-      </div>
-      <div class="project">
-        <h3>Interactive Game Development</h3>
-        <p><strong>Tools:</strong> JavaScript, HTML5, Canvas API</p>
-        <p>Developed a cross-device browser game with character control and level difficulty scaling. Focused on performance and dynamic gameplay loops.</p>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="certifications" data-aos="fade-left">
-    <div class="container">
-      <h2>Certifications</h2>
-      <ul>
-        <li>Google Data Analytics Professional Certificate – Google (2025)</li>
-        <li>Cloud Computing – AWS (In Progress)</li>
-        <li>Google AI Essentials – Google (2024)</li>
-        <li>Coursera – Introduction to Cloud Computing by IBM (2024)</li>
-      </ul>
-    </div>
-  </section>
+    <section class="stats-strip">
+      <div class="container stats-grid">
+        <div><span>1</span><p>End-to-end BI client project</p></div>
+        <div><span>3.8</span><p>University of Calgary GPA</p></div>
+        <div><span>7+</span><p>Technical projects</p></div>
+        <div><span>500+</span><p>Passengers supported daily in operations role</p></div>
+      </div>
+    </section>
 
-  <section id="contact" data-aos="fade-up">
-    <div class="container">
-      <h2>Contact</h2>
-      <p><i class="fas fa-envelope"></i> Email: <a href="mailto:sukhpreet.sandhu2@ucalgary.ca">sukhpreet.sandhu2@ucalgary.ca</a></p>
-      <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://linkedin.com/in/sukhpreet-sandhu">linkedin.com/in/sukhpreet-sandhu</a></p>
-      <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/sandhu-sukhpreet">github.com/sandhu-sukhpreet</a></p>
-    </div>
-  </section>
+    <section id="about" class="section-padding">
+      <div class="container two-column">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About</p>
+          <h2>Analytical, practical, and business-focused.</h2>
+        </div>
+        <div class="section-body reveal">
+          <p>
+            I am a Computer Science graduate from the University of Calgary with hands-on experience in business intelligence, SQL analysis, dashboard development, and client-facing project work. I enjoy taking raw information and turning it into something a business can actually use: KPIs, dashboards, trends, and recommendations.
+          </p>
+          <p>
+            My background combines technical training with real operational experience. Through my airport security role, I developed strong attention to detail, communication, time management, and decision-making under pressure. Through my analytics projects, I have built the technical foundation needed for junior data analyst, business analyst, and reporting analyst roles.
+          </p>
+        </div>
+      </div>
+    </section>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Sukhpreet Kaur Sandhu</p>
+    <section id="skills" class="section-padding section-muted">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">Skills</p>
+          <h2>Technical skills aligned with data analyst work.</h2>
+        </div>
+
+        <div class="skills-grid reveal">
+          <div class="skill-card">
+            <i class="fa-solid fa-database"></i>
+            <h3>Data & SQL</h3>
+            <p>SQL, MySQL, MySQL Workbench, data cleaning, data validation, joins, aggregations, KPI queries, and business reporting.</p>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-chart-simple"></i>
+            <h3>Business Intelligence</h3>
+            <p>Power BI dashboards, data visualization, KPI cards, slicers, trend analysis, dashboard storytelling, and reporting design.</p>
+          </div>
+          <div class="skill-card">
+            <i class="fa-brands fa-python"></i>
+            <h3>Programming</h3>
+            <p>Python, pandas, NumPy, Java, JavaScript, HTML/CSS, C++, Haskell, Prolog, and scripting for analysis workflows.</p>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <h3>Tools</h3>
+            <p>Excel, Git, GitHub, VS Code, Jupyter Notebook, IntelliJ, PyCharm, Figma, NetworkX, Gephi, and Microsoft Office.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section-padding">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">Experience</p>
+          <h2>Project work and operational experience.</h2>
+        </div>
+
+        <div class="timeline reveal">
+          <article class="timeline-item">
+            <div class="timeline-date">June 2026 – July 2026</div>
+            <div class="timeline-content">
+              <h3>Data Analyst — Client Project</h3>
+              <p class="company">Calgary Pro Plumbing</p>
+              <ul>
+                <li>Developed an end-to-end business intelligence dashboard using SQL, Excel, and Power BI.</li>
+                <li>Analyzed revenue, service trends, technician performance, customer satisfaction, payment behavior, and operational KPIs.</li>
+                <li>Prepared project documentation covering business understanding, requirements, data preparation, SQL analysis, dashboard design, insights, and recommendations.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">April 2026 – Present</div>
+            <div class="timeline-content">
+              <h3>Web Developer — Client Project</h3>
+              <p class="company">Calgary Pro Plumbing</p>
+              <ul>
+                <li>Designed and developed a responsive business website to improve the client’s online presence.</li>
+                <li>Gathered client requirements and translated them into page structure, layout, and user-facing content.</li>
+                <li>Created interface layouts and prototypes using HTML, CSS, JavaScript, and Figma.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">May 2022 – Jan 2025</div>
+            <div class="timeline-content">
+              <h3>Pre-Board Screening Officer</h3>
+              <p class="company">GardaWorld / PASS — Calgary International Airport</p>
+              <ul>
+                <li>Performed security screening for high-volume passenger operations while maintaining accuracy, professionalism, and compliance.</li>
+                <li>Supported efficient passenger flow through clear communication and fast issue resolution.</li>
+                <li>Built strong judgment, attention to detail, and stakeholder communication skills in a regulated environment.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-padding section-muted">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">Projects</p>
+          <h2>Featured work.</h2>
+        </div>
+
+        <div class="featured-project reveal">
+          <div class="project-visual placeholder-visual">
+            <i class="fa-solid fa-chart-pie"></i>
+            <p>Add dashboard screenshot here</p>
+          </div>
+          <div class="project-details">
+            <p class="project-label">Featured BI Project</p>
+            <h3>Calgary Pro Plumbing Business Intelligence Dashboard</h3>
+            <p>
+              Built a complete BI solution for a plumbing business scenario, including business requirements, data cleaning, SQL analysis, KPI development, Power BI dashboard design, and business recommendations.
+            </p>
+            <ul class="project-points">
+              <li>Analyzed revenue, service categories, technician performance, customer satisfaction, and payment trends.</li>
+              <li>Designed KPI cards, charts, slicers, and interactive dashboard pages for management reporting.</li>
+              <li>Documented the full analytics lifecycle from business understanding to final recommendations.</li>
+            </ul>
+            <div class="tech-tags">
+              <span>Power BI</span><span>SQL</span><span>Excel</span><span>MySQL</span><span>Business Intelligence</span>
+            </div>
+            <div class="project-actions">
+              <a class="btn btn-primary" href="https://github.com/sandhu-sukhpreet/calgary-pro-plumbing-bi-dashboard" target="_blank" rel="noopener">View GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-grid reveal">
+          <article class="project-card">
+            <h3>Calgary Transit Network Analysis</h3>
+            <p>Analyzed Calgary Transit GTFS data using graph analytics to identify network patterns, route importance, and accessibility insights.</p>
+            <div class="tech-tags"><span>Python</span><span>NetworkX</span><span>Gephi</span><span>Power BI</span></div>
+          </article>
+
+          <article class="project-card">
+            <h3>RoamIO Travel App</h3>
+            <p>Designed a mobile travel planning application focused on itinerary sharing, user-centered design, and collaborative trip organization.</p>
+            <div class="tech-tags"><span>React Native</span><span>Expo</span><span>Figma</span><span>UX</span></div>
+          </article>
+
+          <article class="project-card">
+            <h3>Self-Checkout System</h3>
+            <p>Built a Java-based self-checkout system with GUI components, object-oriented design, and unit testing.</p>
+            <div class="tech-tags"><span>Java</span><span>Swing</span><span>JUnit</span><span>OOP</span></div>
+          </article>
+
+          <article class="project-card">
+            <h3>Cat Adoption Web App</h3>
+            <p>Developed a full-stack application with a responsive interface, RESTful backend, and MongoDB database integration.</p>
+            <div class="tech-tags"><span>Node.js</span><span>MongoDB</span><span>JavaScript</span><span>HTML/CSS</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section-padding">
+      <div class="container two-column">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Education</p>
+          <h2>Computer Science foundation.</h2>
+        </div>
+        <div class="education-list reveal">
+          <div class="education-card">
+            <h3>University of Calgary</h3>
+            <p>Bachelor of Science in Computer Science</p>
+            <p>Sept 2022 – Apr 2026 • GPA: 3.8 • Dean’s Honour List x3</p>
+          </div>
+          <div class="education-card">
+            <h3>Langara College</h3>
+            <p>Diploma in Computer Science</p>
+            <p>Jan 2018 – Dec 2019 • GPA: 4.0 • Dean’s Honour List x4</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-padding contact-section">
+      <div class="container contact-card reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s connect.</h2>
+        <p>I am open to junior data analyst, reporting analyst, business analyst, and data-focused entry-level opportunities.</p>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:sukhpreet.sandhu2@ucalgary.ca"><i class="fa-solid fa-envelope"></i> Email Me</a>
+          <a class="btn btn-secondary" href="https://github.com/sandhu-sukhpreet" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+          <a class="btn btn-secondary" href="https://linkedin.com/in/sukhpreet-sandhu" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 Sukhpreet Kaur Sandhu. Built with HTML, CSS, and JavaScript.</p>
+      <a href="#home">Back to top ↑</a>
     </div>
   </footer>
 
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-    const toggle = document.getElementById('theme-toggle');
-    toggle.onclick = () => {
-      document.body.classList.toggle('dark');
-    };
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
