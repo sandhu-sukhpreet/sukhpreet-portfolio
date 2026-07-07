@@ -1,10 +1,10 @@
-# Sukhpreet Kaur Sandhu – Data Analyst Portfolio
+# Sukhpreet Kaur Sandhu - Data Analyst Portfolio
 
 A personal portfolio showcasing my projects, technical skills, and experience in data analytics, business intelligence, and software development.
 
 ## Live Website
 
-🔗 https://YOUR-PORTFOLIO-LINK
+🔗https://sandhu-sukhpreet.github.io/sukhpreet-portfolio/
 
 ## About
 
