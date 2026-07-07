@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sukhpreet Kaur Sandhu | Data Analyst Portfolio</title>
-  <meta name="description" content="Portfolio of Sukhpreet Kaur Sandhu, a Computer Science graduate and Junior Data Analyst focused on SQL, Power BI, Python, business intelligence, and dashboard development." />
+  <meta name="description" content="Portfolio of Sukhpreet Kaur Sandhu, a Computer Science graduate and Junior Data Analyst working across SQL, Power BI, Python, AWS, Snowflake, and business intelligence dashboard development." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -15,14 +15,14 @@
   <header class="site-header">
     <nav class="navbar container">
       <a class="brand" href="#home">Sukhpreet<span>.</span></a>
-      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation">
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links">
         <i class="fa-solid fa-bars"></i>
       </button>
       <div class="nav-links" id="nav-links">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
         <a href="#education">Education</a>
         <a href="#contact">Contact</a>
       </div>
@@ -33,77 +33,60 @@
     <section id="home" class="hero section-padding">
       <div class="container hero-grid">
         <div class="hero-content reveal">
-          <p class="eyebrow">Junior Data Analyst • Computer Science Graduate</p>
+          <p class="eyebrow">Computer Science Graduate   |  Data Analyst  |  Business Intelligence</p>
           <h1>Sukhpreet Kaur Sandhu</h1>
           <p class="hero-subtitle">
-            I design business-focused dashboards and analytics solutions using SQL, Power BI, Excel, and Python.
+            I develop data-driven dashboards and analytical solutions using SQL, Power BI, Python, and cloud data pipelines.
           </p>
           <p class="hero-copy">
-            Computer Science graduate with hands-on experience building BI dashboards, SQL analysis, KPI reporting, and client-facing project documentation.
+            Computer Science graduate with hands-on experience developing business intelligence dashboards, SQL-based analysis, KPI reporting, and cloud-based ELT pipelines using Snowflake, dbt, and AWS, along with client-facing project documentation.
           </p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="resume/Sandhu_Resume_Data_Analyst.pdf" target="_blank" rel="noopener">
               <i class="fa-solid fa-file-arrow-down"></i> Download Resume
             </a>
+          </div>
+
+          <div class="hero-actions secondary-actions">
             <a class="btn btn-secondary" href="#projects">
               <i class="fa-solid fa-chart-line"></i> View Projects
             </a>
             <a class="btn btn-secondary" href="https://github.com/sandhu-sukhpreet" target="_blank" rel="noopener">
               <i class="fa-brands fa-github"></i> GitHub
             </a>
+            <a class="btn btn-secondary" href="https://linkedin.com/in/sukhpreet-sandhu" target="_blank" rel="noopener">
+              <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
           </div>
-          <div class="social-row">
-            <a href="mailto:sukhpreet.sandhu2@ucalgary.ca" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
-            <a href="https://github.com/sandhu-sukhpreet" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-            <a href="https://linkedin.com/in/sukhpreet-sandhu" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-          </div>
+
         </div>
 
         <div class="hero-card reveal">
-          <img src="images/sukhpreet.jpg" alt="Sukhpreet Kaur Sandhu" class="profile-img" />
-          <div class="hero-card-text">
-            <h2>Data Analytics Portfolio</h2>
-            <p>SQL • Power BI • Python • Excel • Business Intelligence</p>
-          </div>
+          <img src="images/sukhpreet.jpg" alt="Portrait of Sukhpreet Kaur Sandhu" class="profile-img" />
         </div>
       </div>
     </section>
 
-    <section class="why-me section-padding">
-      <div class="container">
-        <div class="section-heading centered reveal">
-          <p class="eyebrow">Why Me</p>
-          <h2>I bring technical skills, business thinking, and client project experience.</h2>
+    <section class="stats-strip">
+      <div class="container stats-grid">
+        <div>
+          <span>20M+</span>
+          <p>Ratings modeled in a Snowflake &amp; dbt ELT pipeline</p>
         </div>
-
-        <div class="why-grid reveal">
-          <div class="why-card">
-            <i class="fa-solid fa-graduation-cap"></i>
-            <h3>Computer Science Graduate</h3>
-            <p>University of Calgary graduate with a strong technical foundation.</p>
-          </div>
-
-          <div class="why-card">
-            <i class="fa-solid fa-chart-line"></i>
-            <h3>Business Intelligence</h3>
-            <p>SQL, Power BI, Excel, KPI reporting, and dashboard development.</p>
-          </div>
-
-          <div class="why-card">
-            <i class="fa-solid fa-briefcase"></i>
-            <h3>Client Project Experience</h3>
-            <p>Hands-on analytics and web development work for Calgary Pro Plumbing.</p>
-          </div>
-
-          <div class="why-card">
-            <i class="fa-solid fa-bullseye"></i>
-            <h3>Career Focus</h3>
-            <p>Seeking junior data analyst, reporting analyst, and BI-focused roles.</p>
-          </div>
-          </div>
+        <div>
+          <span>400K+</span>
+          <p>Records analyzed in a serverless AWS data lake</p>
+        </div>
+        <div>
+          <span>3.8</span>
+          <p>GPA, Distinction - Dean's List </p>
+        </div>
+        <div>
+          <span>3+</span>
+          <p>End-to-end BI &amp; analytics projects delivered</p>
+        </div>
       </div>
     </section>
-    
 
     <section id="about" class="section-padding">
       <div class="container two-column">
@@ -113,10 +96,10 @@
         </div>
         <div class="section-body reveal">
           <p>
-            I am a Computer Science graduate from the University of Calgary with hands-on experience in business intelligence, SQL analysis, dashboard development, and client-facing project work. I enjoy taking raw information and turning it into something a business can actually use: KPIs, dashboards, trends, and recommendations.
+            I am a Computer Science graduate from the University of Calgary (Distinction, GPA 3.8) with hands-on experience developing business intelligence dashboards, SQL-based analysis, and cloud-based ELT pipelines. My focus is transforming raw data into actionable business insights, including KPIs, dashboards, trend analysis, and recommendations.
           </p>
           <p>
-            My background combines technical training with real operational experience. Through my airport security role, I developed strong attention to detail, communication, time management, and decision-making under pressure. Through my analytics projects, I have built the technical foundation needed for junior data analyst, business analyst, and reporting analyst roles.
+            My background combines technical training with practical operational experience. Coordinating job records and daily operations for a drywall business provided insight into business processes and workflow management, while screening over 3,000 passengers daily at Calgary International Airport strengthened my attention to detail, communication, and decision-making under pressure. This combination informs the analytical judgment I apply to every dashboard and analysis.
           </p>
         </div>
       </div>
@@ -132,7 +115,7 @@
         <div class="skills-grid reveal">
           <div class="skill-card">
             <i class="fa-solid fa-database"></i>
-            <h3>Data & SQL</h3>
+            <h3>Data &amp; SQL</h3>
             <p>SQL, MySQL, MySQL Workbench, data cleaning, data validation, joins, aggregations, KPI queries, and business reporting.</p>
           </div>
           <div class="skill-card">
@@ -141,13 +124,18 @@
             <p>Power BI dashboards, data visualization, KPI cards, slicers, trend analysis, dashboard storytelling, and reporting design.</p>
           </div>
           <div class="skill-card">
+            <i class="fa-solid fa-cloud"></i>
+            <h3>Data Engineering &amp; Cloud</h3>
+            <p>Snowflake, dbt, AWS S3, AWS Glue, Amazon Athena, ELT pipeline design, data modeling, and Docker-based environments.</p>
+          </div>
+          <div class="skill-card">
             <i class="fa-brands fa-python"></i>
             <h3>Programming</h3>
             <p>Python, pandas, NumPy, Java, JavaScript, HTML/CSS, C++, Haskell, Prolog, and scripting for analysis workflows.</p>
           </div>
           <div class="skill-card">
             <i class="fa-solid fa-screwdriver-wrench"></i>
-            <h3>Tools</h3>
+            <h3>Tools &amp; Platforms</h3>
             <p>Excel, Git, GitHub, VS Code, Jupyter Notebook, IntelliJ, PyCharm, Figma, NetworkX, Gephi, and Microsoft Office.</p>
           </div>
         </div>
@@ -165,12 +153,13 @@
           <article class="timeline-item">
             <div class="timeline-date">June 2026 – July 2026</div>
             <div class="timeline-content">
-              <h3>Data Analyst - Client Project</h3>
+              <h3>Junior Data Analyst - Client Project</h3>
               <p class="company">Calgary Pro Plumbing</p>
               <ul>
-                <li>Developed an end-to-end business intelligence dashboard using SQL, Excel, and Power BI.</li>
-                <li>Analyzed revenue, service trends, technician performance, customer satisfaction, payment behavior, and operational KPIs.</li>
-                <li>Prepared project documentation covering business understanding, requirements, data preparation, SQL analysis, dashboard design, insights, and recommendations.</li>
+                <li>Built an end-to-end business intelligence dashboard using SQL, Excel, and Power BI for a residential and commercial plumbing business.</li>
+                <li>Cleaned and analyzed operational data to surface revenue trends, technician performance, and customer satisfaction metrics.</li>
+                <li>Designed interactive dashboards with KPI cards, filters, and visualizations to support business decision-making.</li>
+                <li>Delivered full project documentation covering business understanding, data preparation, SQL analysis, and recommendations.</li>
               </ul>
             </div>
           </article>
@@ -181,7 +170,7 @@
               <h3>Web Developer - Client Project</h3>
               <p class="company">Calgary Pro Plumbing</p>
               <ul>
-                <li>Designed and developed a responsive business website to improve the client’s online presence.</li>
+                <li>Designed and developed a responsive business website to improve the client's online presence.</li>
                 <li>Gathered client requirements and translated them into page structure, layout, and user-facing content.</li>
                 <li>Created interface layouts and prototypes using HTML, CSS, JavaScript, and Figma.</li>
               </ul>
@@ -189,14 +178,28 @@
           </article>
 
           <article class="timeline-item">
-            <div class="timeline-date">May 2022 – Jan 2025</div>
+            <div class="timeline-date">January 2022 – Present</div>
             <div class="timeline-content">
               <h3>Pre-Board Screening Officer</h3>
-              <p class="company">GardaWorld / PASS -Calgary International Airport</p>
+              <p class="company">GardaWorld / PASS - Calgary International Airport</p>
               <ul>
-                <li>Performed security screening for high-volume passenger operations while maintaining accuracy, professionalism, and compliance.</li>
-                <li>Supported efficient passenger flow through clear communication and fast issue resolution.</li>
-                <li>Built strong judgment, attention to detail, and stakeholder communication skills in a regulated environment.</li>
+                <li>Operate X-ray machines, metal detectors, and body scanners to detect prohibited items, improving threat-identification accuracy and reducing security breaches.</li>
+                <li>Deliver clear, professional service to 3,000+ passengers daily, supporting efficient passenger flow and a positive travel experience.</li>
+                <li>Apply security protocols and fast decision-making in response to alerts, resolving potential threats while maintaining passenger and staff safety.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">December 2021 – April 2025</div>
+            <div class="timeline-content">
+              <h3>Operations / Project Support Assistant (Part-Time)</h3>
+              <p class="company">Golden Star Drywall</p>
+              <ul>
+                <li>Supported day-to-day operations and project coordination using Excel, Microsoft Project, and shared cloud tools to track jobs and tasks.</li>
+                <li>Managed customer communication, appointment scheduling, and job tracking, improving response and follow-up accuracy.</li>
+                <li>Organized invoices and job records, improving record accuracy and retrieval time by approximately 25%.</li>
+                <li>Introduced task-tracking practices that reduced missed or delayed follow-ups by approximately 15%.</li>
               </ul>
             </div>
           </article>
@@ -208,57 +211,155 @@
       <div class="container">
         <div class="section-heading centered reveal">
           <p class="eyebrow">Projects</p>
-          <h2>Featured work.</h2>
+          <h2>Featured Projects</h2>
+          <p class="section-description">
+          Projects demonstrating business intelligence, data engineering, full-stack development, and security awareness.
+          </p>
         </div>
 
         <div class="featured-project reveal">
-          <div class="project-visual placeholder-visual">
-            <i class="fa-solid fa-chart-pie"></i>
-            <p>Add dashboard screenshot here</p>
+          <div class="project-visual">
+              <img src="images/CombinedDashboard.png"
+                  alt="Calgary Pro Plumbing Power BI Dashboard">
           </div>
           <div class="project-details">
-            <p class="project-label">Featured BI Project</p>
+            <p class="project-label">Featured Project</p>
             <h3>Calgary Pro Plumbing Business Intelligence Dashboard</h3>
             <p>
-              Built a complete BI solution for a plumbing business scenario, including business requirements, data cleaning, SQL analysis, KPI development, Power BI dashboard design, and business recommendations.
+            This project followed the complete analytics lifecycle: business understanding and requirements gathering, data preparation, SQL analysis, KPI development, interactive dashboard design, and business recommendations. The solution gives management visibility into revenue performance, technician productivity, customer satisfaction, payment trends, and service demand.
             </p>
             <ul class="project-points">
-              <li>Analyzed revenue, service categories, technician performance, customer satisfaction, and payment trends.</li>
-              <li>Designed KPI cards, charts, slicers, and interactive dashboard pages for management reporting.</li>
-              <li>Documented the full analytics lifecycle from business understanding to final recommendations.</li>
+              <li>Developed SQL queries to analyze operational data and generate key business metrics.</li>
+              <li>Designed interactive Power BI dashboards to monitor revenue, technician performance, customer satisfaction, and payment trends.</li>
+              <li>Translated business requirements into KPIs, visual reports, and actionable recommendations to support data-driven decision-making.</li>
             </ul>
             <div class="tech-tags">
-              <span>Power BI</span><span>SQL</span><span>Excel</span><span>MySQL</span><span>Business Intelligence</span>
+              <span>SQL</span>
+              <span>Power BI</span>
+              <span>Microsoft Excel</span>
+              <span>MySQL</span>
+              <span>Business Intelligence</span>
+              <span>KPI Reporting</span>
             </div>
             <div class="project-actions">
-              <a class="btn btn-primary" href="https://github.com/sandhu-sukhpreet/calgary-pro-plumbing-bi-dashboard" target="_blank" rel="noopener">View GitHub</a>
+              <a class="btn btn-primary"
+                href="https://github.com/sandhu-sukhpreet/calgary-pro-plumbing-bi-dashboard"
+                target="_blank"
+                rel="noopener">
+                <i class="fa-brands fa-github"></i> View GitHub
+              </a>
+
+              <a class="btn btn-secondary"
+                href="docs/Calgary_pro_plumbing_documentation.pdf"
+                target="_blank"
+                rel="noopener">
+                <i class="fa-solid fa-file-lines"></i> View Documentation
+              </a>
             </div>
           </div>
         </div>
 
         <div class="project-grid reveal">
           <article class="project-card">
+            <h3>Netflix Data Analytics Pipeline</h3>
+            <p>Built an end-to-end ELT pipeline ingesting and transforming 20M+ MovieLens ratings through a layered RAW -> staging -> marts warehouse in Snowflake, orchestrated with dbt.</p>
+            <div class="tech-tags">
+              <span>Snowflake</span>
+              <span>dbt</span>
+              <span>AWS S3</span>
+              <span>SQL</span>
+            </div>
+
+            <div class="project-actions">
+              <a class="btn btn-primary"
+                href="https://github.com/sandhu-sukhpreet/netflix-dbt-analytics-pipeline"
+                target="_blank"
+                rel="noopener">
+                  <i class="fa-brands fa-github"></i> View GitHub
+              </a>
+          </div>
+          </article>
+
+          <article class="project-card">
+            <h3>YouTube Trending Data Lake</h3>
+            <p>Designed a serverless AWS data lake to analyze 400K+ YouTube trending records across 10 countries, using Glue Crawlers and Athena for schema discovery and regional insights.</p>
+            <div class="tech-tags">
+              <span>AWS S3</span>
+              <span>AWS Glue</span>
+              <span>Athena</span>
+              <span>SQL</span>
+            </div>
+
+            <div class="project-actions">
+              <a class="btn btn-primary"
+                href="https://github.com/sandhu-sukhpreet/youtube-trending-data-lake-aws"
+                target="_blank"
+                rel="noopener">
+                  <i class="fa-brands fa-github"></i> View GitHub
+              </a>
+            </div>
+
+          </article>
+
+          <article class="project-card">
             <h3>Calgary Transit Network Analysis</h3>
-            <p>Analyzed Calgary Transit GTFS data using graph analytics to identify network patterns, route importance, and accessibility insights.</p>
-            <div class="tech-tags"><span>Python</span><span>NetworkX</span><span>Gephi</span><span>Power BI</span></div>
+            <p>Modeled Calgary Transit as a multilayer network using GTFS data, applying centrality and community detection to evaluate connectivity, bottlenecks, and route overlaps.</p>
+            <div class="tech-tags">
+              <span>Python</span>
+              <span>NetworkX</span>
+              <span>Gephi</span>
+              <span>Power BI</span>
+            </div>
+
+            <div class="project-actions">
+              <a class="btn btn-primary"
+                href="https://github.com/sandhu-sukhpreet/calgary-transit-network-analysis"
+                target="_blank"
+                rel="noopener">
+                  <i class="fa-brands fa-github"></i> View GitHub
+              </a>
+           </div>
           </article>
 
           <article class="project-card">
-            <h3>RoamIO Travel App</h3>
-            <p>Designed a mobile travel planning application focused on itinerary sharing, user-centered design, and collaborative trip organization.</p>
-            <div class="tech-tags"><span>React Native</span><span>Expo</span><span>Figma</span><span>UX</span></div>
+            <h3>Cartify - Full-Stack Marketplace</h3>
+            <p>Designed a relational MySQL schema and RESTful API for a marketplace app, with route-level authentication, authorization, and Docker-based local development.</p>
+            <div class="tech-tags">
+              <span>Node.js</span>
+              <span>Express</span>
+              <span>MySQL</span>
+              <span>Docker</span>
+            </div>
+
+            <div class="project-actions">
+              <a class="btn btn-primary"
+                href="https://gitlab.cpsc.ucalgary.ca/rumaisashoeb.talukde/seng513-202512-group-27"
+                target="_blank"
+                rel="noopener">
+                  <i class="fa-brands fa-github"></i> View GitLab
+              </a>
+            </div>
+
           </article>
 
           <article class="project-card">
-            <h3>Self-Checkout System</h3>
-            <p>Built a Java-based self-checkout system with GUI components, object-oriented design, and unit testing.</p>
-            <div class="tech-tags"><span>Java</span><span>Swing</span><span>JUnit</span><span>OOP</span></div>
-          </article>
+            <h3>Security Analysis - CWE-285</h3>
+            <p>Built a deliberately vulnerable app to demonstrate and remediate improper authorization (IDOR), comparing vulnerable and secured implementations.</p>
+            <div class="tech-tags">
+              <span>Node.js</span>
+              <span>Express</span>
+              <span>REST APIs</span>
+            </div>
 
-          <article class="project-card">
-            <h3>Cat Adoption Web App</h3>
-            <p>Developed a full-stack application with a responsive interface, RESTful backend, and MongoDB database integration.</p>
-            <div class="tech-tags"><span>Node.js</span><span>MongoDB</span><span>JavaScript</span><span>HTML/CSS</span></div>
+            <div class="project-actions">
+              <a class="btn btn-primary"
+                href="https://github.com/suibasultana/cpsc525-cwe285"
+                target="_blank"
+                rel="noopener">
+                  <i class="fa-brands fa-github"></i> View GitHub
+              </a>
+            </div>
+
           </article>
         </div>
       </div>
@@ -273,13 +374,13 @@
         <div class="education-list reveal">
           <div class="education-card">
             <h3>University of Calgary</h3>
-            <p>Bachelor of Science in Computer Science</p>
-            <p>Sept 2022 – Apr 2026 • GPA: 3.8 • Dean’s Honour List x3</p>
+            <p>Bachelor of Science in Computer Science (Distinction)</p>
+            <p>Sept 2022 – Dec 2025 • GPA: 3.8 • Dean's List (3 terms) • Jason Lang Scholarship (2 terms)</p>
           </div>
           <div class="education-card">
             <h3>Langara College</h3>
-            <p>Diploma in Computer Science</p>
-            <p>Jan 2018 – Dec 2019 • GPA: 4.0 • Dean’s Honour List x4</p>
+            <p>Diploma in Computer Science (Distinction)</p>
+            <p>Jan 2018 – Dec 2019 • GPA: 4.0 • Dean's Honour Roll (4 terms)</p>
           </div>
         </div>
       </div>
@@ -288,10 +389,10 @@
     <section id="contact" class="section-padding contact-section">
       <div class="container contact-card reveal">
         <p class="eyebrow">Contact</p>
-        <h2>Let’s connect.</h2>
-        <p>I am open to junior data analyst, reporting analyst, business analyst, and data-focused entry-level opportunities.</p>
+        <h2>Get in Touch</h2>
+        <p>I am open to junior data analyst, reporting analyst, business analyst, and other data-focused entry-level opportunities.</p>
         <div class="contact-actions">
-          <a class="btn btn-primary" href="mailto:sukhpreet.sandhu2@ucalgary.ca"><i class="fa-solid fa-envelope"></i> Email Me</a>
+          <a class="btn btn-secondary" href="mailto:sandhusukhpreet.shs@gmail.com"><i class="fa-solid fa-envelope"></i> Email Me</a>
           <a class="btn btn-secondary" href="https://github.com/sandhu-sukhpreet" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
           <a class="btn btn-secondary" href="https://linkedin.com/in/sukhpreet-sandhu" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
         </div>
@@ -301,7 +402,7 @@
 
   <footer class="footer">
     <div class="container footer-content">
-      <p>© 2026 Sukhpreet Kaur Sandhu. Built with HTML, CSS, and JavaScript.</p>
+      <p>© 2026 Sukhpreet Kaur Sandhu. All rights reserved.</p>
       <a href="#home">Back to top ↑</a>
     </div>
   </footer>
